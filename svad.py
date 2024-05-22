@@ -7,7 +7,9 @@
 #   ./svad.py [--sample_path] [--sample_rate] [--buffer_size] [--error_margin] [--log_level] [--verbose] [--help]
 #
 # DESCRIPTION
-#   This script 
+#   This script compares sample files with the microphone input
+#   and displays an alert box if there are enough chunk matches
+#   according to the error margin.
 #
 # EXAMPLE:
 #   ./svad.py --sample_path ./samples --sample_rate 22050 --buffer_size 1024 --error_margin 5
@@ -26,6 +28,7 @@
 #   Written and maintained by Laura Herzog (laura-herzog@outlook.com)
 #   Concept and ideas by Vanessa Jahn-Ruhland, Thomas Davies and
 #   Laura Herzog
+#
 #   Permission to copy and modify is granted under the GPLv3 license
 #   Project Information: https://github.com/lauratheq/svad/
 
